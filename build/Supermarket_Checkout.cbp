@@ -45,6 +45,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/home/joel/Projects/Supermarket_Checkout/tests/googletest/include"/>
+					<Add directory="/home/joel/Projects/Supermarket_Checkout/include"/>
 					<Add directory="/usr/include/c++/9"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
 					<Add directory="/usr/include/c++/9/backward"/>
@@ -68,6 +69,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/home/joel/Projects/Supermarket_Checkout/tests/googletest/include"/>
+					<Add directory="/home/joel/Projects/Supermarket_Checkout/include"/>
 					<Add directory="/usr/include/c++/9"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
 					<Add directory="/usr/include/c++/9/backward"/>
@@ -84,6 +86,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/joel/Projects/Supermarket_Checkout/src/Checkout.cpp">
+			<Option target="Supermarket_Checkout"/>
+		</Unit>
 		<Unit filename="/home/joel/Projects/Supermarket_Checkout/src/Checkout_Test.cpp">
 			<Option target="Supermarket_Checkout"/>
 		</Unit>

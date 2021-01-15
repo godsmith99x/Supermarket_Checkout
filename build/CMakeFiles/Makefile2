@@ -94,12 +94,12 @@ clean: CMakeFiles/Supermarket_Checkout.dir/clean
 CMakeFiles/Supermarket_Checkout.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Supermarket_Checkout.dir/build.make CMakeFiles/Supermarket_Checkout.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Supermarket_Checkout.dir/build.make CMakeFiles/Supermarket_Checkout.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/joel/Projects/Supermarket_Checkout/build/CMakeFiles --progress-num=1,2 "Built target Supermarket_Checkout"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/joel/Projects/Supermarket_Checkout/build/CMakeFiles --progress-num=1,2,3 "Built target Supermarket_Checkout"
 .PHONY : CMakeFiles/Supermarket_Checkout.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Supermarket_Checkout.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joel/Projects/Supermarket_Checkout/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joel/Projects/Supermarket_Checkout/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Supermarket_Checkout.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/joel/Projects/Supermarket_Checkout/build/CMakeFiles 0
 .PHONY : CMakeFiles/Supermarket_Checkout.dir/rule

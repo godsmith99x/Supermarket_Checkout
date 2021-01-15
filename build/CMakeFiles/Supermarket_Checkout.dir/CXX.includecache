@@ -331,4 +331,6 @@ iostream
 -
 gtest/gtest.h
 /home/joel/Projects/Supermarket_Checkout/src/gtest/gtest.h
+include/Checkout.h
+/home/joel/Projects/Supermarket_Checkout/src/include/Checkout.h
 

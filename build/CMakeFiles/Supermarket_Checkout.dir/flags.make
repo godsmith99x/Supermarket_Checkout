@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++17
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/joel/Projects/Supermarket_Checkout/tests/googletest/include 
+CXX_INCLUDES = -I/home/joel/Projects/Supermarket_Checkout/tests/googletest/include -I/home/joel/Projects/Supermarket_Checkout/include 
 

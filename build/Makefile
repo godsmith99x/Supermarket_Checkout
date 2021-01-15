@@ -143,6 +143,33 @@ Supermarket_Checkout/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Supermarket_Checkout.dir/build.make CMakeFiles/Supermarket_Checkout.dir/build
 .PHONY : Supermarket_Checkout/fast
 
+src/Checkout.o: src/Checkout.cpp.o
+
+.PHONY : src/Checkout.o
+
+# target to build an object file
+src/Checkout.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Supermarket_Checkout.dir/build.make CMakeFiles/Supermarket_Checkout.dir/src/Checkout.cpp.o
+.PHONY : src/Checkout.cpp.o
+
+src/Checkout.i: src/Checkout.cpp.i
+
+.PHONY : src/Checkout.i
+
+# target to preprocess a source file
+src/Checkout.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Supermarket_Checkout.dir/build.make CMakeFiles/Supermarket_Checkout.dir/src/Checkout.cpp.i
+.PHONY : src/Checkout.cpp.i
+
+src/Checkout.s: src/Checkout.cpp.s
+
+.PHONY : src/Checkout.s
+
+# target to generate assembly for a file
+src/Checkout.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Supermarket_Checkout.dir/build.make CMakeFiles/Supermarket_Checkout.dir/src/Checkout.cpp.s
+.PHONY : src/Checkout.cpp.s
+
 src/Checkout_Test.o: src/Checkout_Test.cpp.o
 
 .PHONY : src/Checkout_Test.o
@@ -179,6 +206,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Supermarket_Checkout"
+	@echo "... src/Checkout.o"
+	@echo "... src/Checkout.i"
+	@echo "... src/Checkout.s"
 	@echo "... src/Checkout_Test.o"
 	@echo "... src/Checkout_Test.i"
 	@echo "... src/Checkout_Test.s"

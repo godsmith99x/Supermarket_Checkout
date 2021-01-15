@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Supermarket_Checkout.dir/src/Checkout.cpp.o"
   "CMakeFiles/Supermarket_Checkout.dir/src/Checkout_Test.cpp.o"
   "Supermarket_Checkout"
   "Supermarket_Checkout.pdb"
