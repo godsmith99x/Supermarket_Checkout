@@ -10,5 +10,5 @@ TEST(Unit_Tests, CanInstantiateCheckout)
 TEST(Unit_Tests, CanAddItemPrice)
 {
     Checkout co;
-    co.AddItemPrice;
+    co.AddItemPrice("a", 1);
 }
