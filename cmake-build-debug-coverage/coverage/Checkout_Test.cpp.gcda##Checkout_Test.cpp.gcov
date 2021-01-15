@@ -1,0 +1,74 @@
+        -:    0:Source:/home/joel/Projects/Supermarket_Checkout/src/Checkout_Test.cpp
+        -:    0:Graph:/home/joel/Projects/Supermarket_Checkout/cmake-build-debug-coverage/CMakeFiles/Supermarket_Checkout.dir/src/Checkout_Test.cpp.gcno
+        -:    0:Data:/home/joel/Projects/Supermarket_Checkout/cmake-build-debug-coverage/CMakeFiles/Supermarket_Checkout.dir/src/Checkout_Test.cpp.gcda
+        -:    0:Runs:1
+        -:    1:#include "gtest/gtest.h"
+        -:    2:#include "Checkout.hpp"
+        -:    3:
+        -:    4:class CheckoutTests : public ::testing::Test
+        -:    5:{
+        -:    6:public:
+        -:    7:
+        -:    8:protected:
+        -:    9:    Checkout checkOut;
+        -:   10:};
+        -:   11:
+        4:   12:TEST_F(CheckoutTests, CanAddItemPrice)
+        -:   13:{
+        1:   14:    checkOut.AddItemPrice("a", 1);
+        1:   15:}
+------------------
+_ZN34CheckoutTests_CanAddItemPrice_TestC2Ev:
+        1:   12:TEST_F(CheckoutTests, CanAddItemPrice)
+        1:   12-block  0
+------------------
+_ZN34CheckoutTests_CanAddItemPrice_TestD0Ev:
+        1:   12:TEST_F(CheckoutTests, CanAddItemPrice)
+        1:   12-block  0
+------------------
+_ZN34CheckoutTests_CanAddItemPrice_TestD2Ev:
+        1:   12:TEST_F(CheckoutTests, CanAddItemPrice)
+        1:   12-block  0
+------------------
+_ZN34CheckoutTests_CanAddItemPrice_Test8TestBodyEv:
+        1:   12:TEST_F(CheckoutTests, CanAddItemPrice)
+        -:   13:{
+        1:   14:    checkOut.AddItemPrice("a", 1);
+        1:   14-block  0
+        1:   14-block  1
+        1:   14-block  2
+    $$$$$:   14-block  3
+    $$$$$:   14-block  4
+    $$$$$:   14-block  5
+        1:   15:}
+------------------
+        -:   16:
+    #####:   17:TEST_F(CheckoutTests, CanAddItem)
+        -:   18:{
+    #####:   19:    checkOut.AddItem("a");
+    #####:   20:}
+------------------
+_ZN29CheckoutTests_CanAddItem_TestC2Ev:
+    #####:   17:TEST_F(CheckoutTests, CanAddItem)
+    %%%%%:   17-block  0
+------------------
+_ZN29CheckoutTests_CanAddItem_TestD0Ev:
+    #####:   17:TEST_F(CheckoutTests, CanAddItem)
+    %%%%%:   17-block  0
+------------------
+_ZN29CheckoutTests_CanAddItem_TestD2Ev:
+    #####:   17:TEST_F(CheckoutTests, CanAddItem)
+    %%%%%:   17-block  0
+------------------
+_ZN29CheckoutTests_CanAddItem_Test8TestBodyEv:
+    #####:   17:TEST_F(CheckoutTests, CanAddItem)
+        -:   18:{
+    #####:   19:    checkOut.AddItem("a");
+    %%%%%:   19-block  0
+    %%%%%:   19-block  1
+    %%%%%:   19-block  2
+    $$$$$:   19-block  3
+    $$$$$:   19-block  4
+    $$$$$:   19-block  5
+    #####:   20:}
+------------------

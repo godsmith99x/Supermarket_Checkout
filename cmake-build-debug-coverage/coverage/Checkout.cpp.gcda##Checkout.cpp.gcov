@@ -1,0 +1,43 @@
+        -:    0:Source:/home/joel/Projects/Supermarket_Checkout/src/Checkout.cpp
+        -:    0:Graph:/home/joel/Projects/Supermarket_Checkout/cmake-build-debug-coverage/CMakeFiles/Supermarket_Checkout.dir/src/Checkout.cpp.gcno
+        -:    0:Data:/home/joel/Projects/Supermarket_Checkout/cmake-build-debug-coverage/CMakeFiles/Supermarket_Checkout.dir/src/Checkout.cpp.gcda
+        -:    0:Runs:1
+        -:    1://
+        -:    2:// Created by joel on 1/14/21.
+        -:    3://
+        -:    4:
+        -:    5:#include "Checkout.hpp"
+        -:    6:
+        1:    7:Checkout::Checkout()
+        -:    8:{
+        -:    9:
+        1:   10:}
+        -:   11:
+       1*:   12:Checkout::~Checkout()
+        -:   13:{
+        -:   14:
+       1*:   15:}
+------------------
+_ZN8CheckoutD0Ev:
+    #####:   12:Checkout::~Checkout()
+        -:   13:{
+        -:   14:
+    #####:   15:}
+    %%%%%:   15-block  0
+------------------
+_ZN8CheckoutD2Ev:
+        1:   12:Checkout::~Checkout()
+        -:   13:{
+        -:   14:
+        1:   15:}
+------------------
+        -:   16:
+        1:   17:void Checkout::AddItemPrice(std::string item, int price)
+        -:   18:{
+        -:   19:
+        1:   20:}
+        -:   21:
+    #####:   22:void Checkout::AddItem(std::string item)
+        -:   23:{
+        -:   24:
+    #####:   25:}
