@@ -14,6 +14,7 @@ public:
     virtual ~Checkout();
 
     void AddItemPrice(std::string item, int price);
+    void AddItem(std::string item);
 };
 
 

@@ -18,3 +18,8 @@ void Checkout::AddItemPrice(std::string item, int price)
 {
 
 }
+
+void Checkout::AddItem(std::string item)
+{
+
+}

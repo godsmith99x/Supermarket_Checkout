@@ -1,6 +1,6 @@
-1 - Can create instance of checkout
-2 - Can add an item price
-3 - Can add an item
+1 x Can create instance of checkout
+2 x Can add an item price
+3 x Can add an item
 4 - Can calculate the current total
 5 - Can add multiple items and get the correct total
 6 - Can add discount rules
