@@ -1,0 +1,15 @@
+//
+// Created by joel on 1/14/21.
+//
+
+#ifndef SUPERMARKET_CHECKOUT_CHECKOUT_HPP
+#define SUPERMARKET_CHECKOUT_CHECKOUT_HPP
+
+
+class Checkout
+{
+
+};
+
+
+#endif //SUPERMARKET_CHECKOUT_CHECKOUT_HPP

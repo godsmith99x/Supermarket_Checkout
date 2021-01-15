@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Supermarket_Checkout.dir/src/Checkout_Test.cpp.o  -o Supermarket_Checkout   -L/home/joel/Projects/Supermarket_Checkout/tests/googletest/lib  -Wl,-rpath,/home/joel/Projects/Supermarket_Checkout/tests/googletest/lib -lgtest -lgtest_main -lpthread 
