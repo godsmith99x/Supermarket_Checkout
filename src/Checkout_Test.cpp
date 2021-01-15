@@ -1,16 +1,20 @@
-#include <iostream>
 #include "gtest/gtest.h"
 #include "Checkout.hpp"
 
-
-TEST(Unit_Tests, CanAddItemPrice)
+class CheckoutTests : public ::testing::Test
 {
-    Checkout co;
-    co.AddItemPrice("a", 1);
+public:
+
+protected:
+    Checkout checkOut;
+};
+
+TEST_F(CheckoutTests, CanAddItemPrice)
+{
+    checkOut.AddItemPrice("a", 1);
 }
 
-TEST(Unit_Tests, CanAddItem)
+TEST_F(CheckoutTests, CanAddItem)
 {
-    Checkout co;
-    co.AddItem("a");
+    checkOut.AddItem("a");
 }

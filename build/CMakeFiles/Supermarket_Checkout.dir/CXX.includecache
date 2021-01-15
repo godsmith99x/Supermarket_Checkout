@@ -330,13 +330,7 @@ cxxabi.h
 acxx_demangle.h
 -
 
-/home/joel/Projects/Supermarket_Checkout/src/Checkout.cpp
-Checkout.hpp
-/home/joel/Projects/Supermarket_Checkout/src/Checkout.hpp
-
 /home/joel/Projects/Supermarket_Checkout/src/Checkout_Test.cpp
-iostream
--
 gtest/gtest.h
 /home/joel/Projects/Supermarket_Checkout/src/gtest/gtest.h
 Checkout.hpp
