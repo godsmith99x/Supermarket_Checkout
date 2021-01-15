@@ -7,6 +7,8 @@
 #IncludeRegexTransform: 
 
 ../include/Checkout.hpp
+string
+-
 
 ../tests/googletest/include/gtest/gtest-death-test.h
 gtest/internal/gtest-death-test-internal.h
@@ -327,6 +329,10 @@ cxxabi.h
 -
 acxx_demangle.h
 -
+
+/home/joel/Projects/Supermarket_Checkout/src/Checkout.cpp
+Checkout.hpp
+/home/joel/Projects/Supermarket_Checkout/src/Checkout.hpp
 
 /home/joel/Projects/Supermarket_Checkout/src/Checkout_Test.cpp
 iostream
