@@ -6,6 +6,8 @@
 
 #IncludeRegexTransform: 
 
+../include/Checkout.hpp
+
 ../tests/googletest/include/gtest/gtest-death-test.h
 gtest/internal/gtest-death-test-internal.h
 ../tests/googletest/include/gtest/gtest/internal/gtest-death-test-internal.h
@@ -331,6 +333,6 @@ iostream
 -
 gtest/gtest.h
 /home/joel/Projects/Supermarket_Checkout/src/gtest/gtest.h
-include/Checkout.h
-/home/joel/Projects/Supermarket_Checkout/src/include/Checkout.h
+Checkout.hpp
+/home/joel/Projects/Supermarket_Checkout/src/Checkout.hpp
 

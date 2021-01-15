@@ -4,6 +4,7 @@
 CMakeFiles/Supermarket_Checkout.dir/src/Checkout.cpp.o: ../include/Checkout.hpp
 CMakeFiles/Supermarket_Checkout.dir/src/Checkout.cpp.o: ../src/Checkout.cpp
 
+CMakeFiles/Supermarket_Checkout.dir/src/Checkout_Test.cpp.o: ../include/Checkout.hpp
 CMakeFiles/Supermarket_Checkout.dir/src/Checkout_Test.cpp.o: ../tests/googletest/include/gtest/gtest-death-test.h
 CMakeFiles/Supermarket_Checkout.dir/src/Checkout_Test.cpp.o: ../tests/googletest/include/gtest/gtest-matchers.h
 CMakeFiles/Supermarket_Checkout.dir/src/Checkout_Test.cpp.o: ../tests/googletest/include/gtest/gtest-message.h
