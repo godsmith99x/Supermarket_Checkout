@@ -29,3 +29,8 @@ int Checkout::CalculateTotal()
 {
     return total;
 }
+
+void Checkout::AddDiscount(const std::string &item, int numOfItems, int discountPrice)
+{
+
+}

@@ -16,6 +16,7 @@ public:
 
     void AddItemPrice(const std::string& item, int price);
     void AddItem(const std::string& item);
+    void AddDiscount(const std::string& item, int numOfItems, int discountPrice);
     int CalculateTotal();
 
 protected:
