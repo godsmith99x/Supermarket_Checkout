@@ -23,3 +23,8 @@ void Checkout::AddItem(std::string item)
 {
 
 }
+
+int Checkout::CalculateTotal()
+{
+    return 1;
+}
