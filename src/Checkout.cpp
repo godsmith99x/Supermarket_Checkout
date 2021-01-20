@@ -5,6 +5,7 @@
 #include "Checkout.hpp"
 
 Checkout::Checkout()
+    : total(0)
 {
 
 }
@@ -14,17 +15,17 @@ Checkout::~Checkout()
 
 }
 
-void Checkout::AddItemPrice(std::string item, int price)
+void Checkout::AddItemPrice(const std::string& item, int price)
 {
-
+    prices[item] = price;
 }
 
-void Checkout::AddItem(std::string item)
+void Checkout::AddItem(const std::string& item)
 {
-
+    total += prices[item];
 }
 
 int Checkout::CalculateTotal()
 {
-    return 1;
+    return total;
 }
