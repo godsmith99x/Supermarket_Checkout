@@ -22,15 +22,26 @@ void Checkout::AddItemPrice(const std::string& item, int price)
 
 void Checkout::AddItem(const std::string& item)
 {
-    total += prices[item];
+    items[item]++;
 }
 
 int Checkout::CalculateTotal()
 {
+    total = 0;
+
+    for (auto itemIter = items.begin();
+         itemIter != items.end(); ++itemIter)
+    {
+        std::string item = itemIter -> first;
+        int itemCount = itemIter -> second;
+    }
     return total;
 }
 
 void Checkout::AddDiscount(const std::string &item, int numOfItems, int discountPrice)
 {
-
+    Discount discount {};
+    discount.numOfItems = numOfItems;
+    discount.discountPrice = discountPrice;
+    discounts[item] = discount;
 }
