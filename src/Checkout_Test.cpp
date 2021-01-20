@@ -33,3 +33,14 @@ TEST_F(CheckoutTests, CanAddDiscount)
 {
     checkOut.AddDiscount("a", 3, 2);
 }
+
+TEST_F(CheckoutTests, CanCalculateTotalWithDiscount)
+{
+    checkOut.AddItemPrice("a", 1);
+    checkOut.AddDiscount("a", 3, 2);
+    checkOut.AddItem("a");
+    checkOut.AddItem("a");
+    checkOut.AddItem("a");
+    int total = checkOut.CalculateTotal();
+    ASSERT_EQ(2, total);
+}
