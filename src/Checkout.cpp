@@ -29,11 +29,36 @@ int Checkout::CalculateTotal()
 {
     total = 0;
 
-    for (auto itemIter = items.begin();
-         itemIter != items.end(); ++itemIter)
+    for (auto & itemIter : items)
     {
-        std::string item = itemIter -> first;
-        int itemCount = itemIter -> second;
+        //search items map to get count
+        std::string item = itemIter.first;
+        int itemCount = itemIter.second;
+
+        //search discount map to get discount
+        auto discountIter = discounts.find(item);
+        if (discountIter != discounts.end())
+        {
+            Discount discount = discountIter->second;
+
+            //check if number of items >= number needed for discount
+            if (itemCount >= discount.numOfItems)
+            {
+                //calculate number of discount items and apply to total
+                int numOfDiscounts = itemCount / discount.numOfItems;
+                total += numOfDiscounts * discount.discountPrice;
+                int remainingItems = itemCount % discount.numOfItems;
+                total += remainingItems * prices[item];
+            }
+            else //not enough items for discount
+            {
+                total += itemCount * prices[item];
+            }
+        }
+        else //no discount rule available for item
+        {
+            total += itemCount * prices[item];
+        }
     }
     return total;
 }
