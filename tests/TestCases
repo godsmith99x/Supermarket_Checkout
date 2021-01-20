@@ -4,5 +4,5 @@
 4 x Can calculate the current total
 5 x Can add multiple items and get the correct total
 6 x Can add discount rules
-7 - Can apply discount rules to the total
+7 x Can apply discount rules to the total
 8 - Exception is thrown for item added without price
