@@ -28,3 +28,8 @@ TEST_F(CheckoutTests, CanGetTotalForMultipleItems)
     int total = checkOut.CalculateTotal();
     ASSERT_EQ(3, total);
 }
+
+TEST_F(CheckoutTests, CanAddDiscount)
+{
+    checkOut.AddDiscount("a", 3, 2);
+}
